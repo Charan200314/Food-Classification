@@ -1,0 +1,21 @@
+{
+    "name": "food-classifier",
+    "version": "1.0.0",
+    "description": "A web app for food type classification using TensorFlow.js and COCO-SSD model.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.3",
+        "multer": "^1.4.3",
+        "mysql2": "^2.3.3",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}

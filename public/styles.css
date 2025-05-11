@@ -1,0 +1,75 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-screen background image */
+body {
+  background-image: url("https://projectgurukul.org/wp-content/uploads/2022/10/deep-learning-project-food-classification.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay container */
+.overlay-container {
+  display: flex;
+  align-items: center;
+  height: 100%; 
+  padding-left: 40px;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
+}
+
+/* Camera container */
+.camera-box {
+  /* background-color: rgba(255, 255, 255, 0.9); */
+   
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  /* max-width: 680px; */
+}
+
+/* Title */
+.title {
+  color:#ccc;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  text-align: start;
+}
+
+/* Video */
+video {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Canvas Preview */
+canvas {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+#result {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 3px black; 
+}
